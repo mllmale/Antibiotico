@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MPT</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" 
+               height="110px"></a>
+        </div>
+        <div class="menu-icon">
+            <img src="/main/menu.png" height="40px" onclick="Sites()">
+            <ul>
+                <li>
+                    <div class="lista">
+                        <a href="/Antibiótico Macrolídio/index.html" target="_blank">Antibióticos Macrolídios</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="menu">
+            <button class="menu-btn" onclick="ShowMenu()">Menu</button>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                    <a href="#">Sobre Nós</a>
+                    <a id="talk" href="#">Fale conosco</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="conteiner-mid">
+        <div class="conteiner-texto">
+            <h1>Conheça a Med para Todos</h1>
+                <p> um site para conhecer ainda mais da medicina!<br>
+            Aqui você poderá aprender sobre doenças, remédios e vacinas.</p>
+          
+        </div>
+        <div class="conteiner-img">
+            <a href="http://www.freepik.com" target="_blank" onclick="Direitos()"><img src="/main/NMid.png" height="350px" ></a>
+        </div>
+    </div>
+    <div class="conteiner-duo">
+        <div >
+            <form>
+                <table>
+                    <tr>
+                        <td class="conteiner-fake">
+                            <p><span>Fake News</span><br><br> Livre de qualquer tipo de desinformação, recebendo as mais atuais notícias e informações.</p> 
+                            <img src="/main/FK.png" height="150px">
+                        </td>
+                        <td class="conteiner-new"  height="20%" >
+                            <p><span> Confira as Novidades</span><br><br>
+                                <a href="/Antibiótico Macrolídio/index.html" target="_blank">Antibóticos Macrolídios: O que são e dosagem.</a></p>
+                        </td>
+                        
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
+
+
+<script>
+
+    
+    var a = document.querySelector('.menu-icon ul')
+   
+    
+    function Sites() {
+        if (a.classList.contains('opn')) {
+            a.classList.remove('opn');
+        }
+        else {
+            a.classList.add('opn');
+        }
+    }
+    
+    var ul = document.querySelector('.menu ul')
+    var menuBtn = document.querySelector('.menu-btn button')
+
+    function ShowMenu() {
+        if (ul.classList.contains('open')) {
+            ul.classList.remove('open');
+        }
+        else {
+            ul.classList.add('open');
+        }
+    }
+
+    function Direitos() {
+        alert("Você será redirecionado à pádina do criador da imagem.")
+    }
+
+</script>
+
+</body>
+</html>

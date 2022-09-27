@@ -1,0 +1,97 @@
+#titulo {
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#forao {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+
+.fora {
+    background-color: #afeeee;
+    border-radius: 25px;
+
+}
+
+.header {
+    background-color: #afeeee;
+    height: 55px;
+    border-radius: 10px;
+    font-size: larger;
+    position: sticky;
+}
+ 
+.intro {
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+}
+
+.intro-style {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.dot {
+    color: #fff;
+}
+.form {
+    margin-top: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.medicamento {
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+.idade {
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#p {
+    border-radius: 5px;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #afeeee;
+    border-color: black;
+    border-radius: 8px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#peso {
+    border-radius: 5px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#tudo{
+    margin-left: 8px;
+    margin-top: 3px;
+}
+.resul {
+    background-color: #afeeee;
+    height: 25px;
+    max-width: 200px;
+    border-radius: 8px;
+    justify-items: center;
+    font-size: large;
+    margin-left: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
